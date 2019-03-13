@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "wing": {
+    "name": "test001",
+    "title": "test002"
   }
 }
