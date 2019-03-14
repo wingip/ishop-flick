@@ -10,5 +10,24 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "getQuotation": {
+    "purchaseKey": "ECM201903131810360004362836",
+    "success": "true",
+    "code": "200",
+    "message": "success",
+    "detailedMessage": "",
+    "data": {
+      "totalPremium": 0,
+      "levyRate": 0,
+      "credit": 0,
+      "riders": [
+        {
+          "code": "09",
+          "premium": "178.49"
+        }
+      ],
+      "policyNo": "policyNo"
+    }
   }
 }
