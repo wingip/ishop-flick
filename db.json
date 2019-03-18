@@ -48,11 +48,11 @@
 		}
 	},
 	"getClientInfo": {
-		"purchaseKey": "string",
-		"success": "string",
-		"code": "string",
-		"message": "string",
-		"detailedMessage": "string",
+		"purchaseKey": "purchaseKey20190313",
+		"success": "true",
+		"code": "200",
+		"message": "success",
+		"detailedMessage": "",
 		"data": {
 			"firstName": "AIA",
 			"lastName": "Dummy",
