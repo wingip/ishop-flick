@@ -1,36 +1,143 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "getQuotation": {
-    "purchaseKey": "purchaseKey20190313",
-    "success": "true",
-    "code": "200",
-    "message": "success",
-    "detailedMessage": "",
-    "data": {
-      "totalPremium": 178,
-      "levyRate": 0,
-      "credit": 0,
-      "riders": [
-        {
-          "code": "09",
-          "premium": "178.49"
-        }
-      ],
-      "policyNo": "policyNo"
-    }
-  },
-  "getClientInfo": {
-	  "cid": 123
-  }
+	"posts": [
+		{
+			"id": 1,
+			"title": "Post 1"
+		},
+		{
+			"id": 2,
+			"title": "Post 2"
+		},
+		{
+			"id": 3,
+			"title": "Post 3"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	},
+	"getQuotation": {
+		"purchaseKey": "purchaseKey20190313",
+		"success": "true",
+		"code": "200",
+		"message": "success",
+		"detailedMessage": "",
+		"data": {
+			"totalPremium": 178,
+			"levyRate": 0,
+			"credit": 0,
+			"riders": [
+				{
+					"code": "09",
+					"premium": "178.49"
+				}
+			],
+			"policyNo": "policyNo"
+		}
+	},
+	"getClientInfo": {
+		"purchaseKey": "string",
+		"success": "string",
+		"code": "string",
+		"message": "string",
+		"detailedMessage": "string",
+		"data": {
+			"firstName": "AIA",
+			"lastName": "Dummy",
+			"dob": "19880520",
+			"hkid": "C1112226",
+			"gender": "F",
+			"mobile": {
+				"countryCode": "852",
+				"number": "30624700"
+			},
+			"email": "dummy.aia@aia.com",
+			"correspondenceAddress": {
+				"addressLine1": "Mo Uk Ki",
+				"addressLine2": "",
+				"addressLine3": "",
+				"addressLine4": "",
+				"addressLine5": "",
+				"country": "PRC",
+				"countryCode": "CHN",
+				"district": "Hong Kong"
+			},
+			"customerPolNo": "string",
+			"relationshipPolNo": "string",
+			"permanentAddress": {
+				"addressLine1": "",
+				"addressLine2": "",
+				"addressLine3": "",
+				"addressLine4": "",
+				"addressLine5": "",
+				"country": "",
+				"countryCode": "",
+				"district": ""
+			},
+			"residentialAddress": {
+				"addressLine1": "",
+				"addressLine2": "",
+				"addressLine3": "",
+				"addressLine4": "",
+				"addressLine5": "",
+				"country": "",
+				"countryCode": "",
+				"district": ""
+			},
+			"businessAddress": {
+				"addressLine1": "",
+				"addressLine2": "",
+				"addressLine3": "",
+				"addressLine4": "",
+				"addressLine5": "",
+				"country": "",
+				"countryCode": "",
+				"district": ""
+			},
+			"primaryAlphaId": "string",
+			"citizenship": "string",
+			"nationality": "",
+			"segmentLable": "string",
+			"chineseName": "中文名",
+			"relationship": [
+				{
+					"firstName": "AIA",
+					"lastName": "Dummy",
+					"dob": "19841122",
+					"hkid": "C1112226",
+					"gender": "M",
+					"relationship": "spouse"
+				},
+				{
+					"firstName": "AIA",
+					"lastName": "Gou Jai",
+					"dob": "2016",
+					"hkid": "C1112226",
+					"gender": "M",
+					"relationship": "child"
+				},
+				{
+					"firstName": "AIA",
+					"lastName": "Gou Lui",
+					"dob": "20140108",
+					"passportNo": "K1234567890",
+					"passportExpiryDate": "20220820",
+					"gender": "F",
+					"relationship": "child"
+				}
+			]
+		}
+	}
 }
