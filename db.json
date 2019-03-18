@@ -29,5 +29,8 @@
       ],
       "policyNo": "policyNo"
     }
+  },
+  "getClientInfo": {
+	  "cid": 123
   }
 }
