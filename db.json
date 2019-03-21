@@ -29,23 +29,65 @@
 		"name": "typicode"
 	},
 	"getQuotation": {
-		"purchaseKey": "purchaseKey20190313",
-		"success": "true",
-		"code": "200",
-		"message": "success",
-		"detailedMessage": "",
-		"data": {
-			"totalPremium": 178,
-			"levyRate": 0,
-			"credit": 0,
-			"riders": [
-				{
-					"code": "09",
-					"premium": "178.49"
-				}
-			],
-			"policyNo": "policyNo"
-		}
+		"purchaseKey": "ECM201903121210240050062261",
+    "success": "",
+    "code": "502",
+    "message": "Input validation failed",
+    "detailedMessage": "",
+    "data": [
+      {
+        "plan": {
+          "planCode": "L11A05",
+          "coverageName": [
+            "BRAA",
+            "BRBA",
+            "BRAC",
+            "BRAD"
+          ],
+          "startDate": "12/31/2018",
+          "endDate": "12/31/2018"
+        },
+        "INBQQUOTO_TOTPREM": 123,
+        "INBQQUOTO_INITIAL_PREMIUM": 123,
+        "INBQQUOTO_BASIC_ANNUAL_PREMIUM": 0.2,
+        "INBQQUOTO_STATUZ": "",
+        "INBQQUOTO_CNTCURR": "",
+        "INBQQUOTO_ZHCNTLVY": 123,
+        "INBQQUOTO_ZHLVYCUR": "",
+        "INBQQUOTO_ZHLEVYAMT": 123,
+        "INBQQUOTO_ZHLVYRAT": 123,
+        "INBQQUOTO_AMT_DUE": 123,
+        "INBQQUOTO_LIFE": [
+          {
+            "INBQQUOTO_LIFE_LIFE": "",
+            "INBQQUOTO_COVR": [
+              {
+                "INBQQUOTO_COVR_COVERAGE": "",
+                "INBQQUOTO_COVR_RIDER": "",
+                "INBQQUOTO_INSTPREM": 123,
+                "INBQQUOTO_ZLINSPREM": "string",
+                "INBQQUOTO_EXTRA_PREM": "string",
+                "INBQQUOTO_BASIC_RATE": "string",
+                "INBQQUOTO_VD_DISCOUNT": "string",
+                "INBQQUOTO_NS_DISCOUNT": "string",
+                "INBQQUOTO_LS_DISCOUNT": "string",
+                "INBQQUOTO_ZHPRCDNO": "string",
+                "INBQQUOTO_ERRCODE": "string",
+                "INBQQUOTO_ERRDESC": "string",
+                "INBQQUOTO_LOADNG_DETAILS": [
+                  {
+                    "INBQQUOTO_TYPE": "string",
+                    "INBQQUOTO_LOADING_AMOUNT": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "credit": 100,
+        "policyNo": "B338081759"
+      }
+    ]
 	},
 	"getClientInfo": {
 		"purchaseKey": "purchaseKey20190313",
