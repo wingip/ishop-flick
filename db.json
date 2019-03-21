@@ -29,7 +29,7 @@
 		"name": "typicode"
 	},
 	"getQuotation": {
-		"purchaseKey": "ECM201903121210240050062261",
+		"purchaseKey": "purchaseKey20190312",
     "success": "",
     "code": "502",
     "message": "Input validation failed",
@@ -85,7 +85,7 @@
           }
         ],
         "credit": 100,
-        "policyNo": "B338081759"
+        "policyNo": "B012345678"
       }
     ]
 	},
