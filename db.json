@@ -30,7 +30,7 @@
 	},
 	"getQuotation": {
 		"purchaseKey": "purchaseKey20190312",
-    "success": "",
+    "success": "true",
     "code": "200",
     "message": "",
     "detailedMessage": "",
