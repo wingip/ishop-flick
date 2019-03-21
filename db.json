@@ -37,7 +37,59 @@
     "data": [
       {
         "plan": {
-          "planCode": "L11A05",
+          "planCode": "L21A05",
+          "coverageName": [
+            "BRAA",
+            "BRBA",
+            "BRAC",
+            "BRAD"
+          ],
+          "startDate": "12/31/2018",
+          "endDate": "12/31/2018"
+        },
+        "INBQQUOTO_TOTPREM": 123,
+        "INBQQUOTO_INITIAL_PREMIUM": 123,
+        "INBQQUOTO_BASIC_ANNUAL_PREMIUM": 0.2,
+        "INBQQUOTO_STATUZ": "",
+        "INBQQUOTO_CNTCURR": "",
+        "INBQQUOTO_ZHCNTLVY": 123,
+        "INBQQUOTO_ZHLVYCUR": "",
+        "INBQQUOTO_ZHLEVYAMT": 123,
+        "INBQQUOTO_ZHLVYRAT": 123,
+        "INBQQUOTO_AMT_DUE": 123,
+        "INBQQUOTO_LIFE": [
+          {
+            "INBQQUOTO_LIFE_LIFE": "",
+            "INBQQUOTO_COVR": [
+              {
+                "INBQQUOTO_COVR_COVERAGE": "",
+                "INBQQUOTO_COVR_RIDER": "",
+                "INBQQUOTO_INSTPREM": 123,
+                "INBQQUOTO_ZLINSPREM": "string",
+                "INBQQUOTO_EXTRA_PREM": "string",
+                "INBQQUOTO_BASIC_RATE": "string",
+                "INBQQUOTO_VD_DISCOUNT": "string",
+                "INBQQUOTO_NS_DISCOUNT": "string",
+                "INBQQUOTO_LS_DISCOUNT": "string",
+                "INBQQUOTO_ZHPRCDNO": "string",
+                "INBQQUOTO_ERRCODE": "string",
+                "INBQQUOTO_ERRDESC": "string",
+                "INBQQUOTO_LOADNG_DETAILS": [
+                  {
+                    "INBQQUOTO_TYPE": "string",
+                    "INBQQUOTO_LOADING_AMOUNT": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "credit": 100,
+        "policyNo": "B012345678"
+			},
+			{
+        "plan": {
+          "planCode": "L21B05",
           "coverageName": [
             "BRAA",
             "BRBA",
