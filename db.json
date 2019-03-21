@@ -31,8 +31,8 @@
 	"getQuotation": {
 		"purchaseKey": "purchaseKey20190312",
     "success": "",
-    "code": "502",
-    "message": "Input validation failed",
+    "code": "200",
+    "message": "",
     "detailedMessage": "",
     "data": [
       {
