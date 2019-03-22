@@ -29,126 +29,128 @@
 		"name": "typicode"
 	},
 	"getQuotation": {
-		"purchaseKey": "purchaseKey20190312",
-    "success": "true",
-    "code": "200",
-    "message": "",
-    "detailedMessage": "",
-    "data": [
-      {
-        "plan": {
-          "planCode": "L11A05",
-          "coverageName": [
-            "BAAB"
-          ],
-          "startDate": "12/31/2018",
-          "endDate": "12/31/2018"
-        },
-				"totalPremium": 356,
-				"initalPremium": 356,
-				"levyAmount": 0.36,
-				"levyRate": 0.1,
-				"initialPolicyCost": 356.36,
-				"coverages": [
-					{
-						"coverageType": "p",
+		"productpage": {
+			"purchaseKey": "purchaseKey20190312",
+			"success": "true",
+			"code": "200",
+			"message": "",
+			"detailedMessage": "",
+			"data": [
+				{
+					"plan": {
 						"planCode": "L11A05",
-						"coverageName": "BRAA",
-						"coveragePremium": 40
-					}
-				],
-				"available_credit_balance": 100,
-				"activeTravelPolicyNo": "policyNum"
-			},
-			{
-        "plan": {
-          "planCode": "L11B05",
-          "coverageName": [
-            "BAAC"
-          ],
-          "startDate": "12/31/2018",
-          "endDate": "12/31/2018"
-        },
-				"totalPremium": 356,
-				"initalPremium": 356,
-				"levyAmount": 0.36,
-				"levyRate": 0.1,
-				"initialPolicyCost": 356.36,
-				"coverages": [
-					{
-						"coverageType": "p",
+						"coverageName": [
+							"BAAB"
+						],
+						"startDate": "12/31/2018",
+						"endDate": "12/31/2018"
+					},
+					"totalPremium": 356,
+					"initalPremium": 356,
+					"levyAmount": 0.36,
+					"levyRate": 0.1,
+					"initialPolicyCost": 356.36,
+					"coverages": [
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAA",
+							"coveragePremium": 40
+						}
+					],
+					"available_credit_balance": 100,
+					"activeTravelPolicyNo": "policyNum"
+				},
+				{
+					"plan": {
 						"planCode": "L11B05",
-						"coverageName": "BRAA",
-						"coveragePremium": 40
-					}
-				],
-				"available_credit_balance": 100,
-				"activeTravelPolicyNo": "policyNum"
-      }
-    ]
-	},
-	"getQuotation2": {
-		"purchaseKey": "purchaseKey20190312",
-    "success": "true",
-    "code": "200",
-    "message": "",
-    "detailedMessage": "",
-    "data": [
-      {
-        "plan": {
-          "planCode": "L11A05",
-          "coverageName": [
-						"BAAB",
-            "BRAA",
-            "BRAE",
-            "BRAI",
-						"BRAM",
-						"BRAQ"
-          ],
-          "startDate": "12/31/2018",
-          "endDate": "12/31/2018"
-        },
-				"totalPremium": 356,
-				"initalPremium": 356,
-				"levyAmount": 0.36,
-				"levyRate": 0.1,
-				"initialPolicyCost": 356.36,
-				"coverages": [
-					{
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAA",
-						"coveragePremium": 40
+						"coverageName": [
+							"BAAC"
+						],
+						"startDate": "12/31/2018",
+						"endDate": "12/31/2018"
 					},
-					{
-						"coverageType": "p",
+					"totalPremium": 356,
+					"initalPremium": 356,
+					"levyAmount": 0.36,
+					"levyRate": 0.1,
+					"initialPolicyCost": 356.36,
+					"coverages": [
+						{
+							"coverageType": "p",
+							"planCode": "L11B05",
+							"coverageName": "BRAA",
+							"coveragePremium": 40
+						}
+					],
+					"available_credit_balance": 100,
+					"activeTravelPolicyNo": "policyNum"
+				}
+			]
+		},
+		"resultpage": {
+			"purchaseKey": "purchaseKey20190312",
+			"success": "true",
+			"code": "200",
+			"message": "",
+			"detailedMessage": "",
+			"data": [
+				{
+					"plan": {
 						"planCode": "L11A05",
-						"coverageName": "BRAE",
-						"coveragePremium": 30
+						"coverageName": [
+							"BAAB",
+							"BRAA",
+							"BRAE",
+							"BRAI",
+							"BRAM",
+							"BRAQ"
+						],
+						"startDate": "12/31/2018",
+						"endDate": "12/31/2018"
 					},
-					{
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAI",
-						"coveragePremium": 50
-					},
-					{
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAM",
-						"coveragePremium": 60
-					},
-					{
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAQ",
-						"coveragePremium": 55
-					}
-				],
-				"available_credit_balance": 100,
-				"activeTravelPolicyNo": "policyNum"
-			}
-    ]
+					"totalPremium": 356,
+					"initalPremium": 356,
+					"levyAmount": 0.36,
+					"levyRate": 0.1,
+					"initialPolicyCost": 356.36,
+					"coverages": [
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAA",
+							"coveragePremium": 40
+						},
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAE",
+							"coveragePremium": 30
+						},
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAI",
+							"coveragePremium": 50
+						},
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAM",
+							"coveragePremium": 60
+						},
+						{
+							"coverageType": "p",
+							"planCode": "L11A05",
+							"coverageName": "BRAQ",
+							"coveragePremium": 55
+						}
+					],
+					"available_credit_balance": 100,
+					"activeTravelPolicyNo": "policyNum"
+				}
+			]
+		}
 	},
 	"getClientInfo": {
 		"purchaseKey": "purchaseKey20190313",
