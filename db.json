@@ -54,88 +54,93 @@
 		"message": "success",
 		"detailedMessage": "",
 		"data": {
-			"firstName": "AIA",
-			"lastName": "Dummy",
-			"dob": "19880520",
-			"hkid": "C1112226",
+			"firstName": "Chan",
+			"lastName": "Man",
+			"dob": "20/04/2000",
+			"hkid": "X1234563",
 			"gender": "F",
 			"mobile": {
 				"countryCode": "852",
-				"number": "30624700"
+				"number": "12345678"
 			},
-			"email": "dummy.aia@aia.com",
+			"email": "abc@abc.com",
 			"correspondenceAddress": {
-				"addressLine1": "Mo Uk Ki",
+				"addressLine1": "ABC Road",
 				"addressLine2": "",
 				"addressLine3": "",
 				"addressLine4": "",
 				"addressLine5": "",
-				"country": "PRC",
-				"countryCode": "CHN",
-				"district": "HK"
+				"country": "HK",
+				"countryCode": "22",
+				"district": "Hong Kong"
 			},
-			"customerPolNo": "string",
-			"relationshipPolNo": "string",
+			"customerPolNo": "B338081995",
+			"companionPolNo": "B338082059",
 			"permanentAddress": {
-				"addressLine1": "",
+				"addressLine1": "ABC Road",
 				"addressLine2": "",
 				"addressLine3": "",
 				"addressLine4": "",
 				"addressLine5": "",
-				"country": "",
-				"countryCode": "",
-				"district": ""
+				"country": "HK",
+				"countryCode": "22",
+				"district": "Hong Kong"
 			},
 			"residentialAddress": {
-				"addressLine1": "",
+				"addressLine1": "ABC Road",
 				"addressLine2": "",
 				"addressLine3": "",
 				"addressLine4": "",
 				"addressLine5": "",
-				"country": "",
-				"countryCode": "",
-				"district": ""
+				"country": "HK",
+				"countryCode": "22",
+				"district": "Hong Kong"
 			},
 			"businessAddress": {
-				"addressLine1": "",
+				"addressLine1": "ABC Road",
 				"addressLine2": "",
 				"addressLine3": "",
 				"addressLine4": "",
 				"addressLine5": "",
-				"country": "",
-				"countryCode": "",
-				"district": ""
+				"country": "HK",
+				"countryCode": "22",
+				"district": "Hong Kong"
 			},
-			"primaryAlphaId": "string",
-			"citizenship": "string",
+			"primaryAlphaId": "",
+			"citizenship": "",
 			"nationality": "",
-			"segmentLable": "string",
-			"chineseName": "中文名",
-			"relationship": [
+			"segmentLabel": "",
+			"chineseName": "",
+			"companions": [
 				{
-					"firstName": "AIA",
-					"lastName": "Dummy",
-					"dob": "19841122",
-					"hkid": "C1112226",
-					"gender": "M",
-					"relationship": "spouse"
-				},
-				{
-					"firstName": "AIA",
-					"lastName": "Gou Jai",
-					"dob": "2016",
-					"hkid": "C1112226",
-					"gender": "M",
-					"relationship": "child"
-				},
-				{
-					"firstName": "AIA",
-					"lastName": "Gou Lui",
-					"dob": "20140108",
-					"passportNo": "K1234567890",
-					"passportExpiryDate": "20220820",
+					"firstName": "Chan",
+					"lastName": "Man",
+					"dob": "19840421",
+					"hkid": "X1234563",
+					"passportNo": "",
+					"passportExpiryDate": "",
 					"gender": "F",
-					"relationship": "child"
+					"relationship": "S"
+				},
+				{
+					"firstName": "Chan",
+					"lastName": "Man",
+					"dob": "20000825",
+					"hkid": "X1234563",
+					"passportNo": "",
+					"passportExpiryDate": "",
+					"gender": "F",
+					"relationship": "C"
+				},
+				{
+					"firstName": "Chan",
+					"lastName": "Man",
+					"dob": "20061021",
+					"hkid": "",
+					"passportNo": "KP1234567890",
+					"passportExpiryDate": "20220621",
+					"gender": "M",
+					"relationship": "C"
 				}
 			]
 		}
