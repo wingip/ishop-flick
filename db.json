@@ -152,7 +152,7 @@
 			]
 		}
 	},
-	"getClientInfo": {
+	"getTravelClientInfo": {
 		"purchaseKey": "purchaseKey20190313",
 		"success": "true",
 		"code": "200",
@@ -161,7 +161,7 @@
 		"data": {
 			"firstName": "Chan",
 			"lastName": "Man",
-			"dob": "20/04/2000",
+			"dob": "19880623",
 			"hkid": "X1234563",
 			"gender": "F",
 			"mobile": {
