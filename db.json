@@ -362,7 +362,7 @@
 					"customer": {}
 				}
 			],
-			"creditTrancations": [
+			"creditTransactions": [
 				{
 					"coiNo": "09312441",
 					"credit": 20,
