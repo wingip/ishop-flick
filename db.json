@@ -237,14 +237,14 @@
 		}
 	},
 	"getTravelDetails" : {
-		"userId": "258522951",
+		"userId": "1",
 		"sessionId": "",
 		"country": "hk",
 		"language": "en",
 		"partyId": "",
-		"purchaseKey": "ECM201903121210240050062261",
+		"purchaseKey": "1",
 		"data": {
-			"activeTravelPolicyNo": "activeTravelPolicyNo",
+			"activeTravelPolicyNo": "1",
 			"availableCreditBalance": 240,
 			"policyExpiryDate": "20190331",
 			"trips": [
@@ -273,22 +273,22 @@
 						"hkid": "X1234563",
 						"gender": "F",
 						"mobile": {
-						"countryCode": "852",
-						"number": "12345678"
+							"countryCode": "852",
+							"number": "12345678"
 						},
 						"email": "abc@abc.com",
 						"correspondenceAddress": {
-						"addressLine1": "Sample Address Line 1",
-						"addressLine2": "Sample Address Line 2",
-						"addressLine3": "Sample Address Line 3",
-						"addressLine4": "Sample Address Line 4",
-						"addressLine5": "Sample Address Line 5",
-						"country": "HK",
-						"countryCode": "852",
-						"district": "Hong Kong"
+							"addressLine1": "1",
+							"addressLine2": "",
+							"addressLine3": "",
+							"addressLine4": "",
+							"addressLine5": "",
+							"country": "HK",
+							"countryCode": "852",
+							"district": "Hong Kong"
 						},
-						"customerPolNo": "polNum",
-						"companionPolNo": "polNum",
+						"customerPolNo": "pn",
+						"companionPolNo": "pn",
 						"primaryAlphaId": "",
 						"citizenship": "",
 						"nationality": "",
@@ -309,8 +309,7 @@
 							}
 						]
 					}
-				},
-				{
+				}, {
 					"planName": "Premier Worldwide Family",
 					"planCode": "L11A05",
 					"coiNo": "09312441",
@@ -328,51 +327,8 @@
 						"edit",
 						"cancel"
 					],
-					"customer": {
-						"firstName": "Chan",
-						"lastName": "Man",
-						"dob": "string",
-						"hkid": "X1234563",
-						"gender": "F",
-						"mobile": {
-						"countryCode": "852",
-						"number": "12345678"
-						},
-						"email": "abc@abc.com",
-						"correspondenceAddress": {
-						"addressLine1": "Sample Address Line 1",
-						"addressLine2": "Sample Address Line 2",
-						"addressLine3": "Sample Address Line 3",
-						"addressLine4": "Sample Address Line 4",
-						"addressLine5": "Sample Address Line 5",
-						"country": "HK",
-						"countryCode": "852",
-						"district": "Hong Kong"
-						},
-						"customerPolNo": "polNum",
-						"companionPolNo": "polNum",
-						"primaryAlphaId": "",
-						"citizenship": "",
-						"nationality": "",
-						"segmentLabel": "",
-						"chineseName": "",
-						"companions": [
-							{
-								"firstName": "Man",
-								"lastName": "Chan",
-								"dob": "20000421",
-								"hkid": "X1234566",
-								"passportNo": "",
-								"passportExpiryDate": "",
-								"gender": "F",
-								"relationship": "S",
-								"rejectCode": "001",
-								"rejectReason": "Man"
-							}
-						]
-					}
-				},
-				{
+					"customer": {}
+				}, {
 					"planName": "BASIC ASIA FAMILY",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
@@ -387,51 +343,8 @@
 					"noOfChild": 2,
 					"tripStatus": "previous",
 					"availableActions": [],
-					"customer": {
-						"firstName": "Chan",
-						"lastName": "Man",
-						"dob": "string",
-						"hkid": "X1234563",
-						"gender": "F",
-						"mobile": {
-						"countryCode": "852",
-						"number": "12345678"
-						},
-						"email": "abc@abc.com",
-						"correspondenceAddress": {
-						"addressLine1": "Sample Address Line 1",
-						"addressLine2": "Sample Address Line 2",
-						"addressLine3": "Sample Address Line 3",
-						"addressLine4": "Sample Address Line 4",
-						"addressLine5": "Sample Address Line 5",
-						"country": "HK",
-						"countryCode": "852",
-						"district": "Hong Kong"
-						},
-						"customerPolNo": "polNum",
-						"companionPolNo": "polNum",
-						"primaryAlphaId": "",
-						"citizenship": "",
-						"nationality": "",
-						"segmentLabel": "",
-						"chineseName": "",
-						"companions": [
-							{
-								"firstName": "Man",
-								"lastName": "Chan",
-								"dob": "20000421",
-								"hkid": "X1234566",
-								"passportNo": "",
-								"passportExpiryDate": "",
-								"gender": "F",
-								"relationship": "S",
-								"rejectCode": "001",
-								"rejectReason": "Man"
-							}
-						]
-					}
-				},
-				{
+					"customer": {}
+				}, {
 					"planName": "BASIC ASIA FAMILY",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
@@ -446,49 +359,7 @@
 					"noOfChild": 2,
 					"tripStatus": "previous",
 					"availableActions": [],
-					"customer": {
-						"firstName": "Chan",
-						"lastName": "Man",
-						"dob": "string",
-						"hkid": "X1234563",
-						"gender": "F",
-						"mobile": {
-						"countryCode": "852",
-						"number": "12345678"
-						},
-						"email": "abc@abc.com",
-						"correspondenceAddress": {
-						"addressLine1": "Sample Address Line 1",
-						"addressLine2": "Sample Address Line 2",
-						"addressLine3": "Sample Address Line 3",
-						"addressLine4": "Sample Address Line 4",
-						"addressLine5": "Sample Address Line 5",
-						"country": "HK",
-						"countryCode": "852",
-						"district": "Hong Kong"
-						},
-						"customerPolNo": "polNum",
-						"companionPolNo": "polNum",
-						"primaryAlphaId": "",
-						"citizenship": "",
-						"nationality": "",
-						"segmentLabel": "",
-						"chineseName": "",
-						"companions": [
-							{
-								"firstName": "Man",
-								"lastName": "Chan",
-								"dob": "20000421",
-								"hkid": "X1234566",
-								"passportNo": "",
-								"passportExpiryDate": "",
-								"gender": "F",
-								"relationship": "S",
-								"rejectCode": "001",
-								"rejectReason": "Man"
-							}
-						]
-					}
+					"customer": {}
 				}
 			],
 			"creditTrancations": [
@@ -498,36 +369,31 @@
 					"transactionType": "Promotion",
 					"transactionDate": "20190308",
 					"version": ""
-				},
-				{
+				}, {
 					"coiNo": "08791242",
 					"credit": 20,
 					"transactionType": "Promotion",
 					"transactionDate": "20190212",
 					"version": ""
-				},
-				{
+				}, {
 					"coiNo": "00031274",
 					"credit": 140,
 					"transactionType": "Premium Return",
 					"transactionDate": "20180723",
 					"version": ""
-				},
-				{
+				}, {
 					"coiNo": "10938240",
 					"credit": -30,
 					"transactionType": "Premium Offset",
 					"transactionDate": "20180723",
 					"version": ""
-				},
-				{
+				}, {
 					"coiNo": "00031274",
 					"credit": -30,
 					"transactionType": "Premium Offset",
 					"transactionDate": "20180721",
 					"version": ""
-				},
-				{
+				}, {
 					"coiNo": "00031274",
 					"credit": -30,
 					"transactionType": "Premium Offset",
