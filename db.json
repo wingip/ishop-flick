@@ -1,18 +1,4 @@
 {
-	"posts": [
-		{
-			"id": 1,
-			"title": "Post 1"
-		},
-		{
-			"id": 2,
-			"title": "Post 2"
-		},
-		{
-			"id": 3,
-			"title": "Post 3"
-		}
-	],
 	"comments": [
 		{
 			"id": 1,
@@ -246,6 +232,80 @@
 					"passportExpiryDate": "20220621",
 					"gender": "M",
 					"relationship": "C"
+				}
+			]
+		}
+	},
+	"getTravelPolicy" : {
+		"userId": "userId",
+		"sessionId": "",
+		"country": "hk",
+		"language": "en",
+		"partyId": "",
+		"purchaseKey": "purchaseKey",
+		"data": {
+			"credit": 100,
+			"expiredDate": "20190331",
+			"applicationDate": "20181131",
+			"coiList": [
+				{
+					"CoiName": "Basic Asia",
+					"CoiNo": "09312321",
+					"startDate": "20190327",
+					"endDate": "20190402",
+					"noOfAdult": 2,
+					"noOfChild": 2,
+					"status": "Active",
+					"actionAlloed": [
+						"Edit",
+						"End"
+					]
+				},
+				{
+					"CoiName": "Premier Worldwide",
+					"CoiNo": "09312441",
+					"startDate": "20191224",
+					"endDate": "20191231",
+					"noOfAdult": 2,
+					"noOfChild": 2,
+					"status": "Scheduled",
+					"actionAlloed": [
+						"Edit",
+						"Cancel"
+					]
+				},
+				{
+					"CoiName": "Basic Asia",
+					"CoiNo": "09312322",
+					"startDate": "20190910",
+					"endDate": "20190921",
+					"noOfAdult": 2,
+					"noOfChild": 2,
+					"status": "Scheduled",
+					"actionAlloed": [
+						"Edit",
+						"Cancel"
+					]
+				},
+				{
+					"CoiName": "Basic Asia",
+					"CoiNo": "09312320",
+					"startDate": "20190108",
+					"endDate": "20190112",
+					"noOfAdult": 2,
+					"noOfChild": 2,
+					"status": "Previous",
+					"actionAlloed": []
+				},
+				{
+					"CoiName": "Basic Asia",
+					"CoiNo": "09312319",
+					"startDate": "20160605",
+					"endDate": "20160618",
+					"noOfAdult": 2,
+					"noOfChild": 2,
+					"status": "Previous",
+					"actionAlloed": []
 				}
 			]
 		}
