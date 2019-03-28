@@ -221,9 +221,9 @@
 					"firstName": "Chan",
 					"lastName": "Man",
 					"dob": "19840421",
-					"hkid": "X1234563",
-					"passportNo": "",
-					"passportExpiryDate": "",
+					"hkid": "",
+					"passportNo": "KP1234567890",
+					"passportExpiryDate": "20220621",
 					"gender": "F",
 					"relationship": "S"
 				},
