@@ -250,9 +250,9 @@
 			"trips": [
 				{
 					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "BASIC",
-					"planTitleOption2": "ASIA",
-					"planTitleOption3": "FAMILY",
+					"planTitleOption1": "basic",
+					"planTitleOption2": "asia",
+					"planTitleOption3": "family",
 					"planCode": "L11A05",
 					"coiNo": "09312321",
 					"version": "",
@@ -274,7 +274,7 @@
 						"lastName": "Man",
 						"dob": "string",
 						"hkid": "X1234563",
-						"gender": "F",
+						"gender": "M",
 						"mobile": {
 							"countryCode": "852",
 							"number": "12345678"
@@ -326,9 +326,9 @@
 					}
 				}, {
 					"planTitle": "PREMIER WORLDWIDE INDIVIDUAL",
-					"planTitleOption1": "PREMIER",
-					"planTitleOption2": "WORLDWIDE",
-					"planTitleOption3": "INDIVIDUAL",
+					"planTitleOption1": "premier",
+					"planTitleOption2": "worldwide",
+					"planTitleOption3": "individual",
 					"planCode": "L11A05",
 					"coiNo": "09312441",
 					"version": "",
@@ -345,12 +345,14 @@
 						"edit",
 						"cancel"
 					],
-					"customer": {}
+					"customer": {
+						"companions": []
+					}
 				}, {
 					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "BASIC",
-					"planTitleOption2": "ASIA",
-					"planTitleOption3": "FAMILY",
+					"planTitleOption1": "basic",
+					"planTitleOption2": "asia",
+					"planTitleOption3": "family",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
 					"version": "",
@@ -364,12 +366,14 @@
 					"noOfChild": 2,
 					"tripStatus": "previous",
 					"availableActions": [],
-					"customer": {}
+					"customer": {
+						"companions": []
+					}
 				}, {
 					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "BASIC",
-					"planTitleOption2": "ASIA",
-					"planTitleOption3": "FAMILY",
+					"planTitleOption1": "basic",
+					"planTitleOption2": "asia",
+					"planTitleOption3": "family",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
 					"version": "",
@@ -383,7 +387,9 @@
 					"noOfChild": 2,
 					"tripStatus": "previous",
 					"availableActions": [],
-					"customer": {}
+					"customer": {
+						"companions": []
+					}
 				}
 			],
 			"creditTransactions": [
