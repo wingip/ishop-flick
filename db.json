@@ -254,6 +254,20 @@
 					"planTitleOption2": "asia",
 					"planTitleOption3": "family",
 					"planCode": "L11A05",
+					"coverages": [
+					  {
+						"coverageType": "p",
+						"planCode": "L11A05",
+						"coverageName": "BRAA",
+						"coveragePremium": 40
+					  },
+					  {
+						"coverageType": "p",
+						"planCode": "L11A05",
+						"coverageName": "BRAE",
+						"coveragePremium": 40
+					  }
+					],
 					"coiNo": "09312321",
 					"version": "",
 					"applicationDate": "20190327",
@@ -359,27 +373,6 @@
 					"applicationDate": "20180327",
 					"tripStartDate": "20190108",
 					"tripEndDate": "20190112",
-					"levy": 0.2,
-					"levyEffectiveDate": "20190121",
-					"initialPolicyCost": 100.5,
-					"noOfAdult": 2,
-					"noOfChild": 2,
-					"tripStatus": "previous",
-					"availableActions": [],
-					"customer": {
-						"companions": []
-					}
-				}, {
-					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "basic",
-					"planTitleOption2": "asia",
-					"planTitleOption3": "family",
-					"planCode": "L11A05",
-					"coiNo": "09312320",
-					"version": "",
-					"applicationDate": "20160605",
-					"tripStartDate": "20160605",
-					"tripEndDate": "20160618",
 					"levy": 0.2,
 					"levyEffectiveDate": "20190121",
 					"initialPolicyCost": 100.5,
