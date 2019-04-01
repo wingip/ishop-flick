@@ -249,7 +249,10 @@
 			"policyExpiryDate": "20190331",
 			"trips": [
 				{
-					"planName": "BASIC ASIA INDIVIDUAL",
+					"planTitle": "BASIC ASIA FAMILY",
+					"planTitleOption1": "BASIC",
+					"planTitleOption2": "ASIA",
+					"planTitleOption3": "FAMILY",
 					"planCode": "L11A05",
 					"coiNo": "09312321",
 					"version": "",
@@ -296,8 +299,8 @@
 						"chineseName": "",
 						"companions": [
 							{
-								"firstName": "Man",
-								"lastName": "Chan",
+								"firstName": "Yee",
+								"lastName": "Man",
 								"dob": "20000421",
 								"hkid": "X1234566",
 								"passportNo": "",
@@ -306,11 +309,26 @@
 								"relationship": "S",
 								"rejectCode": "001",
 								"rejectReason": "Man"
+							},
+							{
+								"firstName": "Yau Yee",
+								"lastName": "Chan",
+								"dob": "20000421",
+								"hkid": "X1234566",
+								"passportNo": "",
+								"passportExpiryDate": "",
+								"gender": "F",
+								"relationship": "C",
+								"rejectCode": "",
+								"rejectReason": ""
 							}
 						]
 					}
 				}, {
-					"planName": "Premier Worldwide Family",
+					"planTitle": "PREMIER WORLDWIDE INDIVIDUAL",
+					"planTitleOption1": "PREMIER",
+					"planTitleOption2": "WORLDWIDE",
+					"planTitleOption3": "INDIVIDUAL",
 					"planCode": "L11A05",
 					"coiNo": "09312441",
 					"version": "",
@@ -329,7 +347,10 @@
 					],
 					"customer": {}
 				}, {
-					"planName": "BASIC ASIA FAMILY",
+					"planTitle": "BASIC ASIA FAMILY",
+					"planTitleOption1": "BASIC",
+					"planTitleOption2": "ASIA",
+					"planTitleOption3": "FAMILY",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
 					"version": "",
@@ -345,7 +366,10 @@
 					"availableActions": [],
 					"customer": {}
 				}, {
-					"planName": "BASIC ASIA FAMILY",
+					"planTitle": "BASIC ASIA FAMILY",
+					"planTitleOption1": "BASIC",
+					"planTitleOption2": "ASIA",
+					"planTitleOption3": "FAMILY",
 					"planCode": "L11A05",
 					"coiNo": "09312320",
 					"version": "",
@@ -365,37 +389,37 @@
 			"creditTransactions": [
 				{
 					"coiNo": "09312441",
-					"credit": 20,
+					"creditAmount": 20,
 					"transactionType": "Promotion",
 					"transactionDate": "20190308",
 					"version": ""
 				}, {
 					"coiNo": "08791242",
-					"credit": 20,
+					"creditAmount": 20,
 					"transactionType": "Promotion",
 					"transactionDate": "20190212",
 					"version": ""
 				}, {
 					"coiNo": "00031274",
-					"credit": 140,
+					"creditAmount": 140,
 					"transactionType": "Premium Return",
 					"transactionDate": "20180723",
 					"version": ""
 				}, {
 					"coiNo": "10938240",
-					"credit": -30,
+					"creditAmount": -30,
 					"transactionType": "Premium Offset",
 					"transactionDate": "20180723",
 					"version": ""
 				}, {
 					"coiNo": "00031274",
-					"credit": -30,
+					"creditAmount": -30,
 					"transactionType": "Premium Offset",
 					"transactionDate": "20180721",
 					"version": ""
 				}, {
 					"coiNo": "00031274",
-					"credit": -30,
+					"creditAmount": -30,
 					"transactionType": "Premium Offset",
 					"transactionDate": "20180714",
 					"version": ""
