@@ -11,12 +11,9 @@
 			"postId": 1
 		}
 	],
-	"profile": {
-		"name": "typicode"
-	},
 	"getQuotation": {
 		"productpage": {
-			"purchaseKey": "purchaseKey20190312",
+			"purchaseKey": "purKey",
 			"success": "true",
 			"code": "200",
 			"message": "",
@@ -45,7 +42,7 @@
 						}
 					],
 					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "policyNum"
+					"activeTravelPolicyNo": "polNo"
 				},
 				{
 					"plan": {
@@ -70,12 +67,12 @@
 						}
 					],
 					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "policyNum"
+					"activeTravelPolicyNo": "polNo"
 				}
 			]
 		},
 		"resultpage": {
-			"purchaseKey": "purchaseKey20190312",
+			"purchaseKey": "purKey",
 			"success": "true",
 			"code": "200",
 			"message": "",
@@ -133,13 +130,13 @@
 						}
 					],
 					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "policyNum"
+					"activeTravelPolicyNo": "polNo"
 				}
 			]
 		}
 	},
 	"getTravelClientInfo": {
-		"purchaseKey": "purchaseKey20190313",
+		"purchaseKey": "purKey",
 		"success": "true",
 		"code": "200",
 		"message": "success",
@@ -427,5 +424,13 @@
 				}
 			]
 		}
+	},
+	"manageTravelAppForm": {
+		"purchaseKey": "purKey",
+		"success": "true",
+		"code": "200",
+		"message": "",
+		"detailedMessage": "",
+		"data": {}
 	}
 }
