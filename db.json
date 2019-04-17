@@ -1,436 +1,487 @@
 {
-	"comments": [
+"getQuotation":{
+"productpage":{
+	"purchaseKey":"purKey",
+	"success":"true",
+	"code":"200",
+	"message":"",
+	"detailedMessage":"",
+	"data":[
 		{
-			"id": 1,
-			"body": "some comment",
-			"postId": 1
-		},
-		{
-			"id": 2,
-			"body": "some comment",
-			"postId": 1
-		}
-	],
-	"getQuotation": {
-		"productpage": {
-			"purchaseKey": "purKey",
-			"success": "true",
-			"code": "200",
-			"message": "",
-			"detailedMessage": "",
-			"data": [
-				{
-					"plan": {
-						"planCode": "L11A05",
-						"coverageName": [
-							"BAAB"
-						],
-						"startDate": "12/31/2018",
-						"endDate": "12/31/2018"
-					},
-					"totalPremium": 356,
-					"initalPremium": 356,
-					"levyAmount": 0.36,
-					"levyRate": 0.1,
-					"initialPolicyCost": 356.36,
-					"coverages": [
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAA",
-							"coveragePremium": 40
-						}
-					],
-					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "polNo"
-				},
-				{
-					"plan": {
-						"planCode": "L11B05",
-						"coverageName": [
-							"BAAC"
-						],
-						"startDate": "12/31/2018",
-						"endDate": "12/31/2018"
-					},
-					"totalPremium": 356,
-					"initalPremium": 356,
-					"levyAmount": 0.36,
-					"levyRate": 0.1,
-					"initialPolicyCost": 356.36,
-					"coverages": [
-						{
-							"coverageType": "p",
-							"planCode": "L11B05",
-							"coverageName": "BRAA",
-							"coveragePremium": 40
-						}
-					],
-					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "polNo"
-				}
-			]
-		},
-		"resultpage": {
-			"purchaseKey": "purKey",
-			"success": "true",
-			"code": "200",
-			"message": "",
-			"detailedMessage": "",
-			"data": [
-				{
-					"plan": {
-						"planCode": "L11A05",
-						"coverageName": [
-							"BAAB",
-							"BRAA",
-							"BRAE",
-							"BRAI",
-							"BRAM",
-							"BRAQ"
-						],
-						"startDate": "12/31/2018",
-						"endDate": "12/31/2018"
-					},
-					"totalPremium": 356,
-					"initalPremium": 356,
-					"levyAmount": 0.36,
-					"levyRate": 0.1,
-					"initialPolicyCost": 356.36,
-					"coverages": [
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAA",
-							"coveragePremium": 40
-						},
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAE",
-							"coveragePremium": 30
-						},
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAI",
-							"coveragePremium": 50
-						},
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAM",
-							"coveragePremium": 60
-						},
-						{
-							"coverageType": "p",
-							"planCode": "L11A05",
-							"coverageName": "BRAQ",
-							"coveragePremium": 55
-						}
-					],
-					"available_credit_balance": 100,
-					"activeTravelPolicyNo": "polNo"
-				}
-			]
-		}
-	},
-	"getTravelClientInfo": {
-		"purchaseKey": "purKey",
-		"success": "true",
-		"code": "200",
-		"message": "success",
-		"detailedMessage": "",
-		"data": {
-			"firstName": "Chan",
-			"lastName": "Man",
-			"dob": "19880623",
-			"hkid": "X1234563",
-			"gender": "F",
-			"mobile": {
-				"countryCode": "852",
-				"number": "12345678"
+			"plan":{
+				"planCode":"L11A05",
+				"coverageName":["BAAB"],
+				"startDate":"12/31/2018",
+				"endDate":"12/31/2018"
 			},
-			"email": "abc@abc.com",
-			"correspondenceAddress": {
-				"addressLine1": "ABC Road",
-				"addressLine2": "",
-				"addressLine3": "",
-				"addressLine4": "",
-				"addressLine5": "",
-				"country": "HK",
-				"countryCode": "22",
-				"district": "Hong Kong"
-			},
-			"customerPolNo": "B338081995",
-			"companionPolNo": "B338082059",
-			"permanentAddress": {
-				"addressLine1": "ABC Road",
-				"addressLine2": "",
-				"addressLine3": "",
-				"addressLine4": "",
-				"addressLine5": "",
-				"country": "HK",
-				"countryCode": "22",
-				"district": "Hong Kong"
-			},
-			"residentialAddress": {
-				"addressLine1": "ABC Road",
-				"addressLine2": "",
-				"addressLine3": "",
-				"addressLine4": "",
-				"addressLine5": "",
-				"country": "HK",
-				"countryCode": "22",
-				"district": "Hong Kong"
-			},
-			"businessAddress": {
-				"addressLine1": "ABC Road",
-				"addressLine2": "",
-				"addressLine3": "",
-				"addressLine4": "",
-				"addressLine5": "",
-				"country": "HK",
-				"countryCode": "22",
-				"district": "Hong Kong"
-			},
-			"primaryAlphaId": "",
-			"citizenship": "",
-			"nationality": "",
-			"segmentLabel": "",
-			"chineseName": "",
-			"companions": [
+			"totalPremium": 356,
+			"initalPremium": 356,
+			"levyAmount": 0.36,
+			"levyRate": 0.1,
+			"initialPolicyCost": 356.36,
+			"coverages":[
 				{
-					"firstName": "Chan",
-					"lastName": "Man",
-					"dob": "19840421",
-					"hkid": "X1234563",
-					"passportNo": "",
-					"passportExpiryDate": "",
-					"gender": "F",
-					"relationship": "S"
-				},
-				{
-					"firstName": "Chan",
-					"lastName": "Man",
-					"dob": "20000825",
-					"hkid": "X1234563",
-					"passportNo": "",
-					"passportExpiryDate": "",
-					"gender": "F",
-					"relationship": "C"
-				},
-				{
-					"firstName": "Chan",
-					"lastName": "Man",
-					"dob": "20061021",
-					"hkid": "",
-					"passportNo": "KP1234567890",
-					"passportExpiryDate": "20220621",
-					"gender": "M",
-					"relationship": "C"
-				}
-			]
-		}
-	},
-	"getTravelDetails" : {
-		"userId": "1",
-		"sessionId": "",
-		"country": "hk",
-		"language": "en",
-		"partyId": "",
-		"purchaseKey": "1",
-		"data": {
-			"activeTravelPolicyNo": "1",
-			"availableCreditBalance": 240,
-			"policyExpiryDate": "20190331",
-			"trips": [
-				{
-					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "basic",
-					"planTitleOption2": "asia",
-					"planTitleOption3": "family",
-					"planCode": "L11A05",
-					"coverages": [
-					  {
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAB",
-						"coveragePremium": 40
-					  },
-					  {
-						"coverageType": "p",
-						"planCode": "L11A05",
-						"coverageName": "BRAF",
-						"coveragePremium": 40
-					  }
-					],
-					"coiNo": "09312321",
-					"version": "",
-					"applicationDate": "20190327",
-					"tripStartDate": "20190402",
-					"tripEndDate": "20190410",
-					"levy": 0.2,
-					"levyEffectiveDate": "20190121",
-					"initialPolicyCost": 100.5,
-					"noOfAdult": 1,
-					"noOfChild": 0,
-					"tripStatus": "active",
-					"availableActions": [
-						"edit",
-						"end"
-					],
-					"customer": {
-						"firstName": "Chan",
-						"lastName": "Man",
-						"dob": "string",
-						"hkid": "X1234563",
-						"gender": "M",
-						"mobile": {
-							"countryCode": "852",
-							"number": "12345678"
-						},
-						"email": "abc@abc.com",
-						"correspondenceAddress": {
-							"addressLine1": "1",
-							"addressLine2": "",
-							"addressLine3": "",
-							"addressLine4": "",
-							"addressLine5": "",
-							"country": "HK",
-							"countryCode": "852",
-							"district": "Hong Kong"
-						},
-						"customerPolNo": "pn",
-						"companionPolNo": "pn",
-						"primaryAlphaId": "",
-						"citizenship": "",
-						"nationality": "",
-						"segmentLabel": "",
-						"chineseName": "",
-						"companions": [
-							{
-								"firstName": "Yee",
-								"lastName": "Man",
-								"dob": "20000421",
-								"hkid": "X1234566",
-								"passportNo": "",
-								"passportExpiryDate": "",
-								"gender": "F",
-								"relationship": "S",
-								"rejectCode": "001",
-								"rejectReason": "Man"
-							},
-							{
-								"firstName": "Yau Yee",
-								"lastName": "Chan",
-								"dob": "20000421",
-								"hkid": "X1234566",
-								"passportNo": "",
-								"passportExpiryDate": "",
-								"gender": "F",
-								"relationship": "C",
-								"rejectCode": "",
-								"rejectReason": ""
-							}
-						]
-					}
-				}, {
-					"planTitle": "PREMIER WORLDWIDE INDIVIDUAL",
-					"planTitleOption1": "premier",
-					"planTitleOption2": "worldwide",
-					"planTitleOption3": "individual",
-					"planCode": "L11A05",
-					"coverages": [],
-					"coiNo": "09312441",
-					"version": "",
-					"applicationDate": "20190131",
-					"tripStartDate": "20191224",
-					"tripEndDate": "20191231",
-					"levy": 0.2,
-					"levyEffectiveDate": "20190121",
-					"initialPolicyCost": 100.5,
-					"noOfAdult": 2,
-					"noOfChild": 2,
-					"tripStatus": "scheduled",
-					"availableActions": [
-						"edit",
-						"cancel"
-					],
-					"customer": {
-						"companions": []
-					}
-				}, {
-					"planTitle": "BASIC ASIA FAMILY",
-					"planTitleOption1": "basic",
-					"planTitleOption2": "asia",
-					"planTitleOption3": "family",
-					"planCode": "L11A05",
-					"coverages": [],
-					"coiNo": "09312320",
-					"version": "",
-					"applicationDate": "20180327",
-					"tripStartDate": "20190108",
-					"tripEndDate": "20190112",
-					"levy": 0.2,
-					"levyEffectiveDate": "20190121",
-					"initialPolicyCost": 100.5,
-					"noOfAdult": 2,
-					"noOfChild": 2,
-					"tripStatus": "previous",
-					"availableActions": [],
-					"customer": {
-						"companions": []
-					}
+					"coverageType":"p",
+					"planCode":"L11A05",
+					"coverageName":"BRAA",
+					"coveragePremium": 40
 				}
 			],
-			"creditTransactions": [
+			"available_credit_balance": 100,
+			"activeTravelPolicyNo":"polNo"
+		},
+		{
+			"plan":{
+				"planCode":"L11B05",
+				"coverageName":["BAAC"],
+				"startDate":"12/31/2018",
+				"endDate":"12/31/2018"
+			},
+			"totalPremium": 356,
+			"initalPremium": 356,
+			"levyAmount": 0.36,
+			"levyRate": 0.1,
+			"initialPolicyCost": 356.36,
+			"coverages":[
 				{
-					"coiNo": "09312441",
-					"creditAmount": 20,
-					"transactionType": "Promotion",
-					"transactionDate": "20190308",
-					"version": ""
-				}, {
-					"coiNo": "08791242",
-					"creditAmount": 20,
-					"transactionType": "Promotion",
-					"transactionDate": "20190212",
-					"version": ""
-				}, {
-					"coiNo": "00031274",
-					"creditAmount": 140,
-					"transactionType": "Premium Return",
-					"transactionDate": "20180723",
-					"version": ""
-				}, {
-					"coiNo": "10938240",
-					"creditAmount": -30,
-					"transactionType": "Premium Offset",
-					"transactionDate": "20180723",
-					"version": ""
-				}, {
-					"coiNo": "00031274",
-					"creditAmount": -30,
-					"transactionType": "Premium Offset",
-					"transactionDate": "20180721",
-					"version": ""
-				}, {
-					"coiNo": "00031274",
-					"creditAmount": -30,
-					"transactionType": "Premium Offset",
-					"transactionDate": "20180714",
-					"version": ""
+					"coverageType":"p",
+					"planCode":"L11B05",
+					"coverageName":"BRAA",
+					"coveragePremium": 40
 				}
-			]
+			],
+			"available_credit_balance": 100,
+			"activeTravelPolicyNo":"polNo"
 		}
-	},
-	"manageTravelAppForm": {
-		"purchaseKey": "purKey",
-		"success": "true",
-		"code": "200",
-		"message": "",
-		"detailedMessage": "",
-		"data": {}
+	]
+},
+"resultpage":{
+	"purchaseKey":"purKey",
+	"success":"true",
+	"code":"200",
+	"message":"",
+	"detailedMessage":"",
+	"data":[
+	{
+		"plan":{
+			"planCode":"L11A05",
+			"coverageName":["BAAB", "BRAA", "BRAE", "BRAI", "BRAM", "BRAQ"],
+			"startDate":"12/31/2018",
+			"endDate":"12/31/2018"
+		},
+		"totalPremium": 356,
+		"initalPremium": 356,
+		"levyAmount": 0.36,
+		"levyRate": 0.1,
+		"initialPolicyCost": 356.36,
+		"coverages":[
+		{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BRAA",
+			"coveragePremium": 40
+		},
+		{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BRAE",
+			"coveragePremium": 30
+		},
+		{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BRAI",
+			"coveragePremium": 50
+		},
+		{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BRAM",
+			"coveragePremium": 60
+		},
+		{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BRAQ",
+			"coveragePremium": 55
+		}
+		],
+		"available_credit_balance": 100,
+		"activeTravelPolicyNo":"polNo"
 	}
+	]
+}
+},
+"getTravelClientInfo":{
+	"purchaseKey":"purKey",
+	"success":"true",
+	"code":"200",
+	"message":"success",
+	"detailedMessage":"",
+	"data":{
+		"firstName":"Chan",
+		"lastName":"Man",
+		"dob":"19880623",
+		"hkid":"X1234563",
+		"gender":"F",
+		"mobile":{
+			"countryCode":"852",
+			"number":"12345678"
+		},
+		"email":"2@2.com",
+		"correspondenceAddress":{
+			"addressLine1":"ABC Road",
+			"addressLine2":"",
+			"addressLine3":"",
+			"addressLine4":"",
+			"addressLine5":"",
+			"country":"HK",
+			"countryCode":"22",
+			"district":"Hong Kong"
+		},
+		"customerPolNo":"B338081995",
+		"companionPolNo":"B338082059",
+		"permanentAddress":{
+			"addressLine1":"ABC Road",
+			"addressLine2":"",
+			"addressLine3":"",
+			"addressLine4":"",
+			"addressLine5":"",
+			"country":"HK",
+			"countryCode":"22",
+			"district":"Hong Kong"
+		},
+		"residentialAddress":{
+			"addressLine1":"ABC Road",
+			"addressLine2":"",
+			"addressLine3":"",
+			"addressLine4":"",
+			"addressLine5":"",
+			"country":"HK",
+			"countryCode":"22",
+			"district":"Hong Kong"
+		},
+		"businessAddress":{
+			"addressLine1":"ABC Road",
+			"addressLine2":"",
+			"addressLine3":"",
+			"addressLine4":"",
+			"addressLine5":"",
+			"country":"HK",
+			"countryCode":"22",
+			"district":"Hong Kong"
+		},
+		"primaryAlphaId":"",
+		"citizenship":"",
+		"nationality":"",
+		"segmentLabel":"",
+		"chineseName":"",
+		"companions":[
+		{
+			"firstName":"Chan",
+			"lastName":"Man",
+			"dob":"19840421",
+			"hkid":"X1234563",
+			"passportNo":"",
+			"passportExpiryDate":"",
+			"gender":"F",
+			"relationship":"S"
+		},
+		{
+			"firstName":"Chan",
+			"lastName":"Man",
+			"dob":"20000825",
+			"hkid":"X1234563",
+			"passportNo":"",
+			"passportExpiryDate":"",
+			"gender":"F",
+			"relationship":"C"
+		},
+		{
+			"firstName":"Chan",
+			"lastName":"Man",
+			"dob":"20061021",
+			"hkid":"",
+			"passportNo":"KP1234567890",
+			"passportExpiryDate":"20220621",
+			"gender":"M",
+			"relationship":"C"
+		}
+		]
+	}
+},
+"getTravelDetails":{
+	"userId":"1",
+	"sessionId":"",
+	"country":"hk",
+	"language":"en",
+	"partyId":"",
+	"purchaseKey":"1",
+	"data":{
+		"activeTravelPolicyNo":"1",
+		"availableCreditBalance": 240,
+		"policyExpiryDate":"20190331",
+		"trips":[
+		{
+			"planTitle":"BASIC ASIA FAMILY",
+			"planTitleOption1":"basic",
+			"planTitleOption2":"asia",
+			"planTitleOption3":"family",
+			"planCode":"L11A05",
+			"coverages":[
+			{
+				"coverageType":"p",
+				"planCode":"L11A05",
+				"coverageName":"BRAB",
+				"coveragePremium": 40
+			},
+			{
+				"coverageType":"p",
+				"planCode":"L11A05",
+				"coverageName":"BRAF",
+				"coveragePremium": 40
+			}
+			],
+			"coiNo":"09312321",
+			"version":"",
+			"applicationDate":"20190327",
+			"tripStartDate":"20190402",
+			"tripEndDate":"20190410",
+			"levy": 0.2,
+			"levyEffectiveDate":"20190121",
+			"initialPolicyCost": 100.5,
+			"noOfAdult": 1,
+			"noOfChild": 0,
+			"tripStatus":"active",
+			"availableActions":["edit", "end"],
+			"customer":{
+				"firstName":"Chan",
+				"lastName":"Man",
+				"dob":"string",
+				"hkid":"X1234563",
+				"gender":"M",
+				"mobile":{
+					"countryCode":"852",
+					"number":"12345678"
+				},
+				"email":"abc@abc.com",
+				"correspondenceAddress":{
+					"addressLine1":"1",
+					"addressLine2":"",
+					"addressLine3":"",
+					"addressLine4":"",
+					"addressLine5":"",
+					"country":"HK",
+					"countryCode":"852",
+					"district":"Hong Kong"
+				},
+				"customerPolNo":"pn",
+				"companionPolNo":"pn",
+				"primaryAlphaId":"",
+				"citizenship":"",
+				"nationality":"",
+				"segmentLabel":"",
+				"chineseName":"",
+				"companions":[
+					{
+						"firstName":"Yee",
+						"lastName":"Man",
+						"dob":"20000421",
+						"hkid":"X1234566",
+						"passportNo":"",
+						"passportExpiryDate":"",
+						"gender":"F",
+						"relationship":"S",
+						"rejectCode":"001",
+						"rejectReason":"Man"
+					},
+					{
+						"firstName":"Yau Yee",
+						"lastName":"Chan",
+						"dob":"20000421",
+						"hkid":"X1234566",
+						"passportNo":"",
+						"passportExpiryDate":"",
+						"gender":"F",
+						"relationship":"C",
+						"rejectCode":"",
+						"rejectReason":""
+					}
+				]
+			}
+		}, {
+			"planTitle":"PREMIER WORLDWIDE INDIVIDUAL",
+			"planTitleOption1":"premier",
+			"planTitleOption2":"worldwide",
+			"planTitleOption3":"individual",
+			"planCode":"L11A05",
+			"coverages":[],
+			"coiNo":"09312441",
+			"version":"",
+			"applicationDate":"20190131",
+			"tripStartDate":"20191224",
+			"tripEndDate":"20191231",
+			"levy": 0.2,
+			"levyEffectiveDate":"20190121",
+			"initialPolicyCost": 100.5,
+			"noOfAdult": 2,
+			"noOfChild": 2,
+			"tripStatus":"scheduled",
+			"availableActions":["edit", "cancel"],
+			"customer":{
+				"companions":[]
+			}
+		}, {
+			"planTitle":"BASIC ASIA FAMILY",
+			"planTitleOption1":"basic",
+			"planTitleOption2":"asia",
+			"planTitleOption3":"family",
+			"planCode":"L11A05",
+			"coverages":[],
+			"coiNo":"09312320",
+			"version":"",
+			"applicationDate":"20180327",
+			"tripStartDate":"20190108",
+			"tripEndDate":"20190112",
+			"levy": 0.2,
+			"levyEffectiveDate":"20190121",
+			"initialPolicyCost": 100.5,
+			"noOfAdult": 2,
+			"noOfChild": 2,
+			"tripStatus":"previous",
+			"availableActions":[],
+			"customer":{
+				"companions":[]
+			}
+		}
+		],
+		"creditTransactions":[
+		{
+			"coiNo":"09312441",
+			"creditAmount": 20,
+			"transactionType":"Promotion",
+			"transactionDate":"20190308",
+			"version":""
+		}, {
+			"coiNo":"08791242",
+			"creditAmount": 20,
+			"transactionType":"Promotion",
+			"transactionDate":"20190212",
+			"version":""
+		}, {
+			"coiNo":"00031274",
+			"creditAmount": 140,
+			"transactionType":"Premium Return",
+			"transactionDate":"20180723",
+			"version":""
+		}, {
+			"coiNo":"10938240",
+			"creditAmount": -30,
+			"transactionType":"Premium Offset",
+			"transactionDate":"20180723",
+			"version":""
+		}, {
+			"coiNo":"00031274",
+			"creditAmount": -30,
+			"transactionType":"Premium Offset",
+			"transactionDate":"20180721",
+			"version":""
+		}, {
+			"coiNo":"00031274",
+			"creditAmount": -30,
+			"transactionType":"Premium Offset",
+			"transactionDate":"20180714",
+			"version":""
+		}
+		]
+	}
+},
+"manageTravelAppForm":{
+	"purchaseKey":"purKey",
+	"success":"true",
+	"code":"200",
+	"message":"",
+	"detailedMessage":"",
+	"data":{}
+},
+"getTravelManagePayment":{
+	"purchaseKey":"purKey",
+	"success":"true",
+	"code":"200",
+	"message":"",
+	"detailedMessage":"",
+	"data":{
+		"coiNo":"09312321",
+		"coiPreviousVersion":"2",
+		"tripStartDate":"20190410",
+		"tripEndDate":"20190420",
+		"daydifference":-5,
+		"action":"shorten",
+		"paymentDetails":{
+			"previousTrip":{
+			"version":"1",
+			"initialPolicyCost":100.5,
+			"levyAmount":0.36,
+			"levyEffectiveDate":"20190424",
+			"levyRate":0.1,
+			"coverages":[
+			{
+				"coverageType":"p",
+				"planCode":"L11A05",
+				"coverageName":"BAAB",
+				"coverageFullName":"Plan Name",
+				"coveragePremium":700
+			},
+			{
+				"coverageType":"r",
+				"planCode":"L11A05",
+				"coverageName":"BRAA",
+				"coverageFullName":"Pleasure & Adventure",
+				"coveragePremium":35
+			},
+			{
+				"coverageType":"r",
+				"planCode":"L11A05",
+				"coverageName":"BRAE",
+				"coverageFullName":"Relaxation",
+				"coveragePremium":26
+			}
+			]
+			},
+			"currentTrip":{
+			"version":"2",
+			"initialPolicyCost":100.5,
+			"levyAmount":0.36,
+			"levyEffectiveDate":"20190424",
+			"levyRate":0.1,
+			"coverages":[
+			{
+			"coverageType":"p",
+			"planCode":"L11A05",
+			"coverageName":"BAAB",
+			"coverageFullName":"Plan Name",
+			"coveragePremium":700
+			},
+			{
+			"coverageType":"r",
+			"planCode":"L11A05",
+			"coverageName":"BRAA",
+			"coverageFullName":"Pleasure & Adventure",
+			"coveragePremium":35
+			},
+			{
+			"coverageType":"r",
+			"planCode":"L11A05",
+			"coverageName":"BRAE",
+			"coverageFullName":"Relaxation",
+			"coveragePremium":26
+			}
+			]
+			},
+			"proposedCreditAmount":40,
+			"totalPaymentRequired":126,
+			"totalPaymentDebit":10
+		}
+	}
+}
 }
