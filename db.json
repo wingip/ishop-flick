@@ -480,7 +480,8 @@
 			},
 			"proposedCreditAmount":40,
 			"totalPaymentRequired":126,
-			"totalPaymentDebit":10
+			"totalPaymentDebit":10,
+			"deductFromPreviousPromotion": 10
 		}
 	}
 }
