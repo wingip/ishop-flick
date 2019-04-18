@@ -463,25 +463,17 @@
 			"coveragePremium":700
 			},
 			{
-			"coverageType":"r",
-			"planCode":"L11A05",
-			"coverageName":"BRAA",
-			"coverageFullName":"Pleasure & Adventure",
-			"coveragePremium":35
+				"coverageType":"r", "planCode":"L11A05", "coverageName":"BRAA", "coverageFullName":"Pleasure & Adventure", "coveragePremium":35
 			},
 			{
-			"coverageType":"r",
-			"planCode":"L11A05",
-			"coverageName":"BRAE",
-			"coverageFullName":"Relaxation",
-			"coveragePremium":26
+				"coverageType":"r", "planCode":"L11A05", "coverageName":"BRAE", "coverageFullName":"Relaxation", "coveragePremium":26
 			}
 			]
 			},
 			"proposedCreditAmount":40,
 			"totalPaymentRequired":126,
 			"totalPaymentDebit":10,
-			"deductFromPreviousPromotion": 10
+			"deductFromPreviousPromotion":10
 		}
 	}
 }
