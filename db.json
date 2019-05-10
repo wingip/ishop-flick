@@ -211,12 +211,11 @@
 	}
 },
 "getTravelDetails":{
-	"userId":"1",
-	"sessionId":"",
-	"country":"hk",
-	"language":"en",
-	"partyId":"",
 	"purchaseKey":"1",
+	"success":"true",
+	"code":"200",
+	"message":"",
+	"detailedMessage":"",
 	"data":{
 		"activeTravelPolicyNo":"1",
 		"availableCreditBalance": 240,
